@@ -1,5 +1,5 @@
 import { Feedback, Statistic, Section, Notification } from 'components/index';
-import css from './Counret.module.css'
+import css from './Counret.module.css';
 
 // import Statistic from 'components/Сounter/Statistics/Statistics';
 // import Section from 'components/Сounter/Section/Section';
