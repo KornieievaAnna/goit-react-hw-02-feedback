@@ -1,7 +1,7 @@
 import Couter from "./Сounter/Counter";
 
 
-export const App = () => {
+ const App = () => {
   return (
     <div
       style={{
@@ -18,3 +18,5 @@ export const App = () => {
 
   );
 };
+
+export default App;
