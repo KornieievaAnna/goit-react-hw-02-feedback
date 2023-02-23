@@ -6,8 +6,7 @@
 //     <div
 //       style={{
 //         // height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
+//         
 //         // alignItems: 'center',
 //         fontSize: 23,
 //         color: '#010101'
@@ -29,7 +28,6 @@
 
 import { Feedback, Statistic, Section, Notification } from 'components/index';
 // import css from './Counret.module.css';
-
 // import Statistic from 'components/Сounter/Statistics/Statistics';
 // import Section from 'components/Сounter/Section/Section';
 // import Notification from 'components/Сounter/Statistics/Notification/Notification';
@@ -78,7 +76,19 @@ class App extends Component {
 
   render() {
     return (
-      <div style={{}}>
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        border: '1px solid black',
+        fontSize: '23',
+        borderRadius: '5px',
+        padding: '10px',
+        backgroundImage: 'linear-gradient(270deg, #33353a 15%, #000 65%)',
+        color: 'rgb(235, 229, 222)',
+        alignItems: 'center',
+        flexDirection: 'column',
+        margin: '0 auto',
+      }}>
         <Section title="Please leave feedback">
           <Feedback
             options={Object.keys(this.state)}
