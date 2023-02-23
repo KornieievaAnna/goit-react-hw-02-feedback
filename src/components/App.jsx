@@ -1,16 +1,20 @@
+import Couter from "./Сounter/Counter";
+
+
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
+        // alignItems: 'center',
+        fontSize: 23,
         color: '#010101'
       }}
-    >
-      React homework template
+    >      
+      <Couter/>
     </div>
+
   );
 };
